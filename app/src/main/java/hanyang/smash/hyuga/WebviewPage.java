@@ -2,6 +2,7 @@ package hanyang.smash.hyuga;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
 import android.webkit.WebChromeClient;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
@@ -13,6 +14,10 @@ public class WebviewPage extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_webview_page);
+
+
+
+
 
         web = (WebView) findViewById(R.id.webView);
 
